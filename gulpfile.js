@@ -7,8 +7,8 @@ var uglify = require('gulp-uglify');
 var rename = require('gulp-rename');
 var changed = require('gulp-changed');
 
-var SCSS_SRC = './src/Assets/scss/**/*.scss';
-var SCSS_DEST = './src/Assets/css';
+var SCSS_SRC = './src/assets/scss/**/*.scss';
+var SCSS_DEST = './src/assets/css';
 
 // Compile SCSS
 gulp.task('compile_scss', function() {
