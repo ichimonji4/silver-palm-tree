@@ -11,7 +11,7 @@ class App extends Component {
       <div className="App">
         <Header />
         <Homepage />
-        Test01
+        Test0102
         <Footer />
       </div>
     );
